@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { UseCopyToClipboardResult } from './types';
 
 const useCopyToClipboard = () => {
   const [error, setError] = useState<Error | null>(null);
@@ -23,7 +24,12 @@ const useCopyToClipboard = () => {
       });
   };
 
-  return { isCopied, error, handleCopy, setIsCopied };
+  return {
+    isCopied,
+    error,
+    handleCopy,
+    setIsCopied,
+  } as UseCopyToClipboardResult;
 };
 
 export { useCopyToClipboard };

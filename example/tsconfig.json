@@ -8,8 +8,8 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "my-react-hook-library": ["../src"],
-      "my-react-hook-library/*": ["../src/*"]
+      "vite-lib-config": ["../src"],
+      "vite-lib-config/*": ["../src/*"]
     },
     "esModuleInterop": true,
     "skipLibCheck": true,

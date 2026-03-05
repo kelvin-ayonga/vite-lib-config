@@ -1,2 +1,2 @@
-export { useCounter } from "./useCounter";
-export type { UseCounterResult } from "./types";
+export { useCopyToClipboard } from "./useCopyToClipboard";
+export type { UseCopyToClipboardResult } from "./types";

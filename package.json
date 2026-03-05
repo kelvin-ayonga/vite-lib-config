@@ -1,5 +1,5 @@
 {
-  "name": "my-react-hook-library",
+  "name": "vite-lib-config",
   "version": "0.1.0",
   "type": "module",
   "workspaces": [
